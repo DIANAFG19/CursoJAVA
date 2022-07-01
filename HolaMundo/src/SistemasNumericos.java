@@ -1,20 +1,31 @@
+import javax.swing.*;
+
 public class SistemasNumericos {
     public static void main(String[] args) {
-        
-        int numeroDecimal = 500;
-        System.out.println("numeroDecimal = " + numeroDecimal);
+
+        String numeroStr = JOptionPane.showInputDialog("Ingrese un número entero: ");
+        int numeroDecimal = 0;
+        try {
+            numeroDecimal= Integer.parseInt(numeroStr);
+        } catch (NumberFormatException excp) {
+            JOptionPane.showMessageDialog(null, "Debe ingresar un número entero. \nError:" + excp);
+            main(args);
+            //return;
+            System.exit(0);
+        }
+
+        String mensajeBinario = "Número binario de " + numeroDecimal + " = " + Integer.toBinaryString(numeroDecimal);
+        String mensajeOctal = "Número octal de " + numeroDecimal + " = " + Integer.toOctalString(numeroDecimal);
+        String mensajeHexadecimal = "Número hexadecimal de " + numeroDecimal + " = " + Integer.toHexString(numeroDecimal);
 
         System.out.println("Número binario de " + numeroDecimal + " = " + Integer.toBinaryString(numeroDecimal));
-        int numeroBinario = 0b111110100;
-        System.out.println("numeroBinario = " + numeroBinario);
-
         System.out.println("Número octal de " + numeroDecimal + " = " + Integer.toOctalString(numeroDecimal));
-        int numeroOctal = 0764;
-        System.out.println("numeroOctal = " + numeroOctal);
-
         System.out.println("Número hexadecimal de " + numeroDecimal + " = " + Integer.toHexString(numeroDecimal));
-        int numeroHexadecimal = 0x1f4;
-        System.out.println("numeroHexadecimal = " + numeroHexadecimal);
+
+        String mensaje = mensajeBinario;
+        mensaje += "\n" + mensajeOctal;
+        mensaje +=  "\n" + mensajeHexadecimal;
+        JOptionPane.showMessageDialog(null, mensaje);
         
     }
 }
