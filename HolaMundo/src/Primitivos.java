@@ -32,5 +32,22 @@ public class Primitivos {
         System.out.println("Tipo long corresponde en bites a: " + Long.SIZE);
         System.out.println("Valor máximo de long: " + Long.MAX_VALUE);
         System.out.println("Valor mínimo de long: " + Long.MIN_VALUE);
+
+
+        //Declaramos variable tipo float (4 bytes, 32 bits, 1.4E-45 a 3.4028235E38)
+        float numeroFloat = 3.4028235E38F;
+        System.out.println("numeroFloat = " + numeroFloat);
+        System.out.println("Tipo float corresponde en byte a: " + Float.BYTES);
+        System.out.println("Tipo float corresponde en bites a: " + Float.SIZE);
+        System.out.println("Valor máximo de float: " + Float.MAX_VALUE);
+        System.out.println("Valor mínimo de float: " + Float.MIN_VALUE);
+
+        //Declaramos variable tipo double (8 bytes, 64 bits, 4.9E-324 a 1.7976931348623157E308)
+        double numeroDouble = 1.7976931348623157E308;
+        System.out.println("numeroDouble = " + numeroDouble);
+        System.out.println("Tipo double corresponde en byte a: " + Double.BYTES);
+        System.out.println("Tipo double corresponde en bites a: " + Double.SIZE);
+        System.out.println("Valor máximo de double: " + Double.MAX_VALUE);
+        System.out.println("Valor mínimo de double: " + Double.MIN_VALUE);
     }
 }
