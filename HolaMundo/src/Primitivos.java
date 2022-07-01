@@ -63,7 +63,10 @@ public class Primitivos {
         System.out.println("Valor máximo de char: " + Character.MAX_VALUE);
         System.out.println("Valor mínimo de char: " + Character.MIN_VALUE);
 
-        
+
+        //Declaramos variable tipo boolean (1 bit, true or false)
+        boolean valorBoolean = true;
+        System.out.println("valorBoolean = " + valorBoolean);
 
     }
 }
