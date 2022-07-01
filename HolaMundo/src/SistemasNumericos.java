@@ -1,14 +1,20 @@
 import javax.swing.*;
+import java.util.Scanner;
 
 public class SistemasNumericos {
     public static void main(String[] args) {
 
-        String numeroStr = JOptionPane.showInputDialog("Ingrese un número entero: ");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese el número entero: ");
+        String numeroStr = scanner.nextLine();
+
+        //String numeroStr = JOptionPane.showInputDialog("Ingrese un número entero: ");
         int numeroDecimal = 0;
         try {
             numeroDecimal= Integer.parseInt(numeroStr);
         } catch (NumberFormatException excp) {
-            JOptionPane.showMessageDialog(null, "Debe ingresar un número entero. \nError:" + excp);
+            System.out.println("Debe ingresar un número entero. \nError:" + excp);
+            //JOptionPane.showMessageDialog(null, "Debe ingresar un número entero. \nError:" + excp);
             main(args);
             //return;
             System.exit(0);
@@ -25,7 +31,8 @@ public class SistemasNumericos {
         String mensaje = mensajeBinario;
         mensaje += "\n" + mensajeOctal;
         mensaje +=  "\n" + mensajeHexadecimal;
-        JOptionPane.showMessageDialog(null, mensaje);
+        //JOptionPane.showMessageDialog(null, mensaje);
+        System.out.println(mensaje);
         
     }
 }
