@@ -35,19 +35,35 @@ public class Primitivos {
 
 
         //Declaramos variable tipo float (4 bytes, 32 bits, 1.4E-45 a 3.4028235E38)
-        float numeroFloat = 3.4028235E38F;
-        System.out.println("numeroFloat = " + numeroFloat);
+        float realFloat = 3.4028235E38F;
+        System.out.println("realFloat = " + realFloat);
         System.out.println("Tipo float corresponde en byte a: " + Float.BYTES);
         System.out.println("Tipo float corresponde en bites a: " + Float.SIZE);
         System.out.println("Valor máximo de float: " + Float.MAX_VALUE);
         System.out.println("Valor mínimo de float: " + Float.MIN_VALUE);
 
         //Declaramos variable tipo double (8 bytes, 64 bits, 4.9E-324 a 1.7976931348623157E308)
-        double numeroDouble = 1.7976931348623157E308;
-        System.out.println("numeroDouble = " + numeroDouble);
+        double realDouble = 1.7976931348623157E308;
+        System.out.println("realDouble = " + realDouble);
         System.out.println("Tipo double corresponde en byte a: " + Double.BYTES);
         System.out.println("Tipo double corresponde en bites a: " + Double.SIZE);
         System.out.println("Valor máximo de double: " + Double.MAX_VALUE);
         System.out.println("Valor mínimo de double: " + Double.MIN_VALUE);
+
+
+        //Declaramos variable tipo char (2 bytes, 16 bits)
+        char variableCharUnicode = '\u0040';
+        char variableCharDecimal = 64;
+        char variableCharSimbolo = '@';
+        System.out.println("variableCharUnicode = " + variableCharUnicode);
+        System.out.println("variableCharDecimal = " + variableCharDecimal);
+        System.out.println("variableCharSimbolo = " + variableCharSimbolo);
+        System.out.println("Tipo char corresponde en byte a: " + Character.BYTES);
+        System.out.println("Tipo char corresponde en bites a: " + Character.SIZE);
+        System.out.println("Valor máximo de char: " + Character.MAX_VALUE);
+        System.out.println("Valor mínimo de char: " + Character.MIN_VALUE);
+
+        
+
     }
 }
