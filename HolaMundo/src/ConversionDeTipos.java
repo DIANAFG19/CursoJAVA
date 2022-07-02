@@ -31,5 +31,13 @@ public class ConversionDeTipos {
         String logicoStr2 = Boolean.toString(logicoBoolean2);
         System.out.println("logicoStr2 = " + logicoStr2);
 
+        //Convertir un int a un short - castear ya que short es menor a int.
+        int numeroInt3 = 32768;
+        short numeroShort = (short) numeroInt3;
+        System.out.println("numeroShort = " + numeroShort);
+        //Convertir un int a un long
+        long numeroLong = numeroInt3;
+        System.out.println("numeroLong = " + numeroLong);
+
     }
 }
