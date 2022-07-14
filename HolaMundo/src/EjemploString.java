@@ -27,5 +27,14 @@ public class EjemploString {
         System.out.println("detalle2 = " + detalle2);
         System.out.println("detalle3 = " + detalle3);
 
+        //Inmutabilidad.
+        curso.concat(profesor);
+        String resultado = curso.concat(profesor);
+        System.out.println("curso = " + curso);
+        System.out.println("resultado = " + resultado);
+        System.out.println(resultado == curso);
+
+
+
     }
 }
