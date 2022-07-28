@@ -11,7 +11,7 @@ public class EjemploStringMetodos {
         System.out.println("nombre.compareTo(\"Diana\") = " + nombre.compareTo("diana"));
         System.out.println("nombre.compareToIgnoreCase(\"diana\") = " + nombre.compareToIgnoreCase("diana"));
         System.out.println("nombre.charAt(3) = " + nombre.charAt(3));
-        System.out.println("nombre.charAt(nombre.length()-1) = " + nombre.charAt(nombre.length()-1));
+        System.out.println("nombre.charAt(nombre.length()-2) = " + nombre.charAt(nombre.length()-1));
         System.out.println("nombre.substring(1, 3) = " + nombre.substring(1, 3));
         
         String trabalengua = "trabalenguas";
