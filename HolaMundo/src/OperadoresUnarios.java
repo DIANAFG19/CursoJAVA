@@ -6,6 +6,6 @@ public class OperadoresUnarios {
 
         int k = -i; //j = (-1)*i => 5
         System.out.println("k = " + k);
-        
+
     }
 }
