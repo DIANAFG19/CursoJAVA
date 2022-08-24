@@ -22,7 +22,17 @@ public class OperadoresLogicos {
         System.out.println("b5 = " + b5);
 
         boolean b6 = i == j && (k > l || m == false);
-        System.out.println("b5 = " + b6);
+        System.out.println("b6 = " + b6);
+
+        //Procedencia de operadores.
+        boolean b7 = i == j || k < l && m == true;
+        System.out.println("b7 = " + b7);
+
+        boolean b8 = (true || true) && false;
+        System.out.println("b8 = " + b8);
+
+        boolean b9 = true || true && false || false;
+        System.out.println("b9 = " + b9);
 
     }
 }
