@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class LoginArray {
     public static void main(String[] args) {
 
-        String[] usernames = new String[3];
+        /*String[] usernames = new String[3];
         String[] passwords = new String[3];
 
         usernames[0] = "Diana";
@@ -11,7 +11,10 @@ public class LoginArray {
         usernames[1] = "Jesus";
         passwords[1] = "Jesus1234";
         usernames[2] = "Pepito";
-        passwords[2] = "Pepito1234";
+        passwords[2] = "Pepito1234";*/
+
+        String[] usernames = {"Diana", "Jesus", "Pepito"};
+        String[] passwords = {"Diana1234", "Jesus1234", "Pepito1234"};
 
         Scanner scanner = new Scanner(System.in);
 
