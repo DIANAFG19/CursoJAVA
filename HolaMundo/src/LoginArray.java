@@ -13,6 +13,7 @@ public class LoginArray {
         usernames[2] = "Pepito";
         passwords[2] = "Pepito1234";
 
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese el usuario: ");
