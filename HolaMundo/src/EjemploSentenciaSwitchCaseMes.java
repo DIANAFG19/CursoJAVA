@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EjemploSwitchCaseMes {
+public class EjemploSentenciaSwitchCaseMes {
     public static void main(String[] args) {
         int numeroMes = 0;
 
