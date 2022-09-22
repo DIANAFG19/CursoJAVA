@@ -31,6 +31,6 @@ public class SentenciaForArrays {
         } else {
             JOptionPane.showMessageDialog(null, buscar + " NO existe en el sistema.");
         }
-        
+
     }
 }
