@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-public class ProgramaMenuIterativo {
-    public static void main(String[] args) {
-
-=======
 import javax.swing.*;
 import java.util.HashMap;
 import java.util.Map;
@@ -45,9 +40,7 @@ public class ProgramaMenuIterativo {
                     JOptionPane.showMessageDialog(null, "Usuario listado correctamente.");
                 }
             }
-
         } while (opcionIndice != 5);
         JOptionPane.showMessageDialog(null, "Haz salido con éxito.");
->>>>>>> 1be04a5b5b765017684d07f59ccb9e14989831b4
     }
 }
